@@ -1,4 +1,4 @@
-package structs
+package httpRes
 
 import "github.com/Sanzar-Group/std-model/enums/alkalinity"
 
