@@ -1,2 +1,3 @@
 # std-model
-Standard model for Sanzar's software
+
+This has been made to improve communication between the software made by the company
