@@ -1,8 +1,8 @@
 package structs
 
-import "sanzar/stdModel/enums"
+import "github.com/Sanzar-Group/std-model/enums/alkalinity"
 
 type whitewash_res struct {
     Factor int `json:"factor"`
-    Status enums.LoamStatus `json:"status"`
+    Alkalinity alkalinity.Alkalinity `json:"alkalinity"`
 }
