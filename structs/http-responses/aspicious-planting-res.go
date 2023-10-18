@@ -1,6 +1,6 @@
 package httpRes
 
 type AspiciousPlantingResponse struct {
-    optimalPlantingDate string `json:"optimalDate"`
-    unidealPlantingDate string `json:"unidealDate"`
+    OptimalPlantingDate string `json:"optimalDate"`
+    WorsePlantingDate string `json:"worseDate"`
 }
