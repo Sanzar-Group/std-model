@@ -7,7 +7,10 @@ import (
 type AspiciousPlantingRequest struct {
     PlantingDate string `json:"planting_date"`
     Crop crops.Crops  `json:"crop"`
-    Location string `json:"location"`
+    Location struct{
+        Latitude string `json:"latitude"`
+        Longitude string `json:"longitude"`
+    }`json:"location"`
 }
 
 
