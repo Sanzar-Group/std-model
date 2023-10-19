@@ -7,7 +7,7 @@ import (
 type AspiciousPlantingRequest struct {
     PlantingDate string `json:"planting_date"`
     Crop crops.Crops  `json:"crop"`
-    Location [2]float32 `json:"location"`
+    Location string `json:"location"`
 }
 
 
