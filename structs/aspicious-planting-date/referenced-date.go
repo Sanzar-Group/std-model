@@ -1,4 +1,4 @@
-package structs
+package aspiciousPlanting
 
 type ReferencedDate struct {
     Date string `json:"date"`
