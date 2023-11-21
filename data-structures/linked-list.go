@@ -5,10 +5,10 @@ type ListNode[T any] struct {
     Next *ListNode[T]
 }
 
-func (l *ListNode[T]) add(value T) {
+func (l *ListNode[T]) Add(value T) {
     if l.Next == nil {
         l.Next = &ListNode[T]{Value: value}
         return
     }
-    l.Next.add(value)
+    l.Next.Add(value)
 }
