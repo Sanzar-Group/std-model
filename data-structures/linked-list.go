@@ -1,14 +1,14 @@
 package dataStructs
 
 type ListNode[T any] struct {
-    value T
-    next *ListNode[T]
+    Value T
+    Next *ListNode[T]
 }
 
 func (l *ListNode[T]) add(value T) {
-    if l.next == nil {
-        l.next = &ListNode[T]{value: value}
+    if l.Next == nil {
+        l.Next = &ListNode[T]{Value: value}
         return
     }
-    l.next.add(value)
+    l.Next.add(value)
 }
