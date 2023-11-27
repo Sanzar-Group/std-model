@@ -12,5 +12,6 @@ type production struct {
 type EconomicInput struct {
     NPK structs.NPK `json:"npk"`
     Ha int `json:"ha"`
+    Posology int `json:"posology"`
     Production production `json:"production"`
 }
