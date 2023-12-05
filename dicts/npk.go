@@ -13,5 +13,5 @@ type NPKTable struct{
     P_clay_less400 Productivity
     K Productivity
     Limit_factor structs.NPK
-    MaxProd int
+    MaxProd [3]int
 }
